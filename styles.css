@@ -3,23 +3,87 @@
 #042c33
 #717c8c
 #d1d3e1
-#374857 */
+#374857
+262626 */
 
 @import 'reset.css';
 
-body {
-    background-color: #f6f9fc;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    display: flex;
-    flex-direction: column;
+html{
+    background-color: #1a1919;
+}
+.header{
+    background-color: #1a1919;
+    border-radius: 15px;
+    margin: 0vh;
+    box-shadow: 0 10px 14px rgba(0, 0, 0, 0.5),0 10px 3px rgba(0, 0, 0, 0.08);
+}
+.container{
+    margin: 0px,166px;
+}
+.header-line{
     align-items: center;
-    padding: 50px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+.header-logo{
+    background-color: #bd7c40;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+}
+.header-logo a{
+    position: absolute;
+    top: 35px;
+    left: -7px;
+    text-align: center;
+    color: #ffff;
+    margin-left: 15px;
+    text-decoration: none;
+    transition: color 0.5s linear;
+}
+.header-logo a:hover{
+   color: #c7bbb0;
+}
+.nav{
+    display: flex;
 }
 
-.Div{
-    width: 700px;
-    height: 700px;
-    background-color: white;
+.nav a{
+    text-align: center;
+    color: #ffff;
+    margin-left: 15px;
+    text-decoration: none;
+    transition: color 0.5s linear;
+}
+
+.nav a:hover{
+    color: #2c8474;
+}
+
+.down{
+    margin: 15vh;
+    padding: 15vh;
+    background-color:#262626;
+    border-radius: 10px;
+    box-shadow: 0 10px 14px rgba(0, 0, 0, 0.5),0 10px 3px rgba(0, 0, 0, 0.08);
+}
+.cards{
+    justify-content: space-around;
+    display: flex;
+}
+.card{
+    background-color: #eb7414;
     border-radius: 15px;
-    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 10px 14px rgba(0, 0, 0, 0.5),0 10px 3px rgba(0, 0, 0, 0.08);
+    width: 150px;
+    height: 340px;
+    text-align: center;
+    padding-top: 15px;
+}
+.title a{
+    color: #ffff;
+    text-decoration: none;
+    transition: color 0.5s linear;
 }
