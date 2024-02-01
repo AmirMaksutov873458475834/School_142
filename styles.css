@@ -9,10 +9,11 @@
 @import 'reset.css';
 
 html{
-    background-color: #1a1919;
+    background-image: url('img/Bg-imeg.jpg');
+    background-size: cover;
 }
 .header{
-    background-color: #1a1919;
+    background-color: #046f879d;
     border-radius: 15px;
     margin: 0vh;
     box-shadow: 0 10px 14px rgba(0, 0, 0, 0.5),0 10px 3px rgba(0, 0, 0, 0.08);
@@ -26,7 +27,7 @@ html{
     justify-content: space-around;
 }
 .header-logo{
-    background-color: #bd7c40;
+    background-color: #fcbd7e94;
     width: 90px;
     height: 90px;
     border-radius: 50%;
@@ -63,32 +64,20 @@ html{
 }
 
 .down{
-    margin: 4vh;
-    padding: 20vh;
-    background-color:#262626;
+    height: 800px;
+    width: 500px;
+    display: block;
+    margin: 38vh;
+    padding: 24vh;
+    background-color: #ffffff46;
     border-radius: 10px;
-    box-shadow: 0 10px 14px rgba(0, 0, 0, 0.5),0 10px 3px rgba(0, 0, 0, 0.08);
-    transition: cubic-bezier(0.55, 0.085, 0.68, 0.53) 0.3s linear;
-}
-.cards{
-    justify-content: space-around;
-    
+    box-shadow: 0 10px 14px rgba(0, 0, 0, 0.5), 0 10px 3px rgba(0, 0, 0, 0.08);
 }
 .card{
-    padding-top: 15px;
-    height: 47px;
-    width: 119px;
-    background-color: #eb7514a6;
-    border-radius: 15px;
-    box-shadow: 0 10px 14px rgba(0, 0, 0, 0.5),0 10px 3px rgba(0, 0, 0, 0.08);
-    
-}
-.cards :hover{
-    background-color: #eb751470;
-}
-.Text{
-    padding-top: 7px;
-    color: #ffff;
-    text-decoration: none;
-    text-align: center;
+    margin: 15px 15px 15px 15px;
+    height: 150px;
+    width: 500px;
+    background-color: #ffffff46;
+    border-radius: 10px;
+    box-shadow: 0 10px 14px rgba(0, 0, 0, 0.5), 0 10px 3px rgba(0, 0, 0, 0.08);
 }
