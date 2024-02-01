@@ -63,26 +63,31 @@ html{
 }
 
 .down{
-    margin: 15vh;
-    padding: 7vh;
+    margin: 4vh;
+    padding: 20vh;
     background-color:#262626;
     border-radius: 10px;
     box-shadow: 0 10px 14px rgba(0, 0, 0, 0.5),0 10px 3px rgba(0, 0, 0, 0.08);
+    transition: cubic-bezier(0.55, 0.085, 0.68, 0.53) 0.3s linear;
 }
 .cards{
     justify-content: space-around;
-    background-color: #eb7514a6;
-    display: grid;
-    border-radius: 15px;
-    box-shadow: 0 10px 14px rgba(0, 0, 0, 0.5),0 10px 3px rgba(0, 0, 0, 0.08);
+    
 }
 .card{
     padding-top: 15px;
-    height: 100px;
-    padding-top: 15px;
+    height: 47px;
+    width: 119px;
+    background-color: #eb7514a6;
+    border-radius: 15px;
+    box-shadow: 0 10px 14px rgba(0, 0, 0, 0.5),0 10px 3px rgba(0, 0, 0, 0.08);
     
 }
+.cards :hover{
+    background-color: #eb751470;
+}
 .Text{
+    padding-top: 7px;
     color: #ffff;
     text-decoration: none;
     text-align: center;
