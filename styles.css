@@ -1,93 +1,100 @@
-/* #2c616d
-#a0ced8
-#042c33
-#717c8c
-#d1d3e1
-#374857
-262626 */
-
 @import 'reset.css';
 
-html{
-    background-image: url('img/Bg-imeg.jpg');
+body{
+    background-image: url(img/Bg_for_PK.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.header{
-    background-color: #046f879d;
-    border-radius: 15px;
-    margin: 0vh;
-    box-shadow: 0 10px 14px rgba(0, 0, 0, 0.5),0 10px 3px rgba(0, 0, 0, 0.08);
+.Background{
+   
 }
-.container{
-    margin: 0px,166px;
-}
-.header-line{
-    align-items: center;
+.header-up{
+    background-color: rgba(255, 255, 255, 0.589);
+    padding-bottom: 45px;
     display: flex;
-    justify-content: space-around;
-}
-.header-logo{
-    background-color: #fcbd7e94;
-    width: 90px;
-    height: 90px;
-    border-radius: 50%;
-    text-align: center;
     position: relative;
 }
-.header-logo a{
+.header-logo{
+    color: rgb(79, 79, 145);
+    padding: 40px 1px 1px 30px;
+    font-size: 25px;
+}
+.Options{
+    color: white;
     position: absolute;
-    top: 35px;
-    left: -7px;
-    text-align: center;
-    color: #ffff;
-    margin-left: 15px;
+    padding: 11px 0px 0px 9px;
+    top: 40px;
+    right: 32px;
+    border-radius: 15px;
+    width: 64px;
+    height: 30px;
+    background-color: #2c616d;
+    transition: background-color 0.5s linear;;
+}
+.Options:hover{
+    background-color: #1c3b42;
+}
+.header-down{
+    box-sizing: border-box;
+    position: relative;
+    height: 45px;
+    width: 940px;
+    border-radius: 0px 0px 5px 5px;
+    /* margin: 0 70px 20px; */
+    padding-left: 0;
+    background-color: #0274b298;
+}
+.header-line a {
+    position: relative;
+    top: 14px;
+    left: 23px;
+    color: white;
     text-decoration: none;
+    margin-right: 5px;
     transition: color 0.5s linear;
 }
-.header-logo a:hover{
-   color: #c7bbb0;
+.header-line a:hover{
+    color: #91d7e7;
 }
-.nav{
-    display: flex;
-}
-
-.nav a{
-    text-align: center;
-    color: #ffff;
-    margin-left: 15px;
-    text-decoration: none;
-    transition: color 0.5s linear;
-}
-
-.nav a:hover{
-    color: #2c8474;
-}
-
 .down{
-    height: 800px;
-    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+}
+.post:nth-child(3n+1){
     display: block;
-    margin: 38vh;
-    padding: 24vh;
-    background-color: #ffffff46;
-    border-radius: 10px;
-    box-shadow: 0 10px 14px rgba(0, 0, 0, 0.5), 0 10px 3px rgba(0, 0, 0, 0.08);
+    background-color: #2c616d88;
 }
-.card{
+.post{
     margin: 15px 15px 15px 15px;
-    height: 150px;
+    height: 400px;
     width: 500px;
-    background-color: #ffffff46;
+    background-color: #ffffffab;
     border-radius: 10px;
     box-shadow: 0 10px 14px rgba(0, 0, 0, 0.5), 0 10px 3px rgba(0, 0, 0, 0.08);
 }
-
-@media (max-width: 1205px){
-    .header{
-        width: 954px;
+@media (max-width: 750px){
+    .header-down{
+        width: 300px;
+        margin: 0 46px 20px;
+    }
+    .Options{
+        right: 37px;
+    }
+    .post{
+        height: 150px;
+        width: 343px;
+        margin: 15px auto;
+    }
+    body{
+        background-image: url("img/Bg-imeg.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
     }
     .down{
-        margin: 7vh;
-        padding: 17vh;
+        display: block;
     }
 }
