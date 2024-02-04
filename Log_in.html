@@ -4,44 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Log_in</title>
-    <style>
-    @import 'reset.css';
-
-    
-    body{
-        background-image: url(img/Bg_for_PK.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
-    .form{
-        margin: 191px 15px 15px 337px;
-        display: block;
-        background-color: rgba(255, 255, 255, 0.432);
-        width: 150px;
-        height: 150px;
-        align-self: center;
-    }
-    @media (max-width: 750px){
-        body{
-            background-image: url("img/Bg-imeg.jpg");
-            background-size: cover;
-            background-attachment: fixed;
-            background-repeat: no-repeat;
-        }
-    }
-    </style>
+    <link rel="stylesheet" href="style_log.css">
 </head>
 <body>
-    <div class="form">
-        <Input type="email" placeholder="Email"></Input>
-        <Input type="password" placeholder="password"></Input>
-        <Input type="button" value="Sumbit"></Input>
-    </div>
-    <!--Jquery-->
-    <script src="jquery-3.7.1.js"></script>
+    <form id="form-main" method="post">
+        <h1 id="h1_text">G-mame ^ Log_in</h1>
+        <input type="text" name="name" id="Input_t" placeholder="@Login">
+        <input type="password" name="pass" id="Input_p" placeholder="password">
+        <input type="email" name="eml" id="Input_e" placeholder="@email.com"><br><br>
+        <input type="button" name="submit" id="button" value="Готово">
+      </form>
     <!--Script-->
-    <script src="app.js"></script>
+    <script src="Log_in.js">
+    </script>
 </body>
 </html>

@@ -1,0 +1,90 @@
+@import 'reset.css';
+
+    
+body{
+    background-image: url("img/Bg_for_PK.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+body{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: inherit;
+}
+form{
+    background-color: #0274b298;
+    padding-top: 80px;
+    position: absolute;
+    width: 450px;
+    height: 500px;
+    color: #ffffff98;
+    font-family: bold;
+    text-align: center;
+    border: 1px solid #ffffff;
+    border-radius: 50px;
+    margin: 70px 25px 25px 25px;
+}
+#button{
+    margin: 25px;
+    background-color: #4e02b298;
+    width: 150px;
+    height: 50px;
+    font-size: 25px;
+    font-family: bold;
+    text-align: center;
+    border-radius: 50px;
+    color: #ffffff98;
+    border: #ffffff;
+}
+#h1_text{
+    padding: 10px;
+    font-size: 40px;
+}
+
+Input{
+    color: #ffffff98;
+    background-color: #4e02b298;
+    border: none;
+    border-radius: 45px;
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 25px;
+}
+Input:hover{
+    padding: 15px;
+}
+
+#button:hover{
+    background-color: #4e02b298;
+    color: #ffffff98;
+    padding: 3px;
+    width: 170px;
+    height: 70px;;
+}
+#button:active{
+    background-color: #4e02b25e;
+    color: #ffffff98;
+}
+@media (max-width: 750px){
+    body{
+        background-image: url("img/Bg-imeg.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+}
