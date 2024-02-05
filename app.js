@@ -31,7 +31,7 @@ let Account = {
 
 let data = JSON.stringify(Account, null, 2);
 
-fs.writeFile('student-3.json', data, (err) => { 
+fs.writeFile('student.json', data, (err) => { 
      if (err) throw err; 
      console.log('Data written to file'); 
 });
