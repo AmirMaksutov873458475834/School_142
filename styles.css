@@ -1,7 +1,7 @@
 @import 'reset.css';
 
 body{
-    background-image: url(img/Bg_for_PK.jpg);
+    background-image: url(img/Background_Bord.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -90,8 +90,9 @@ body{
         margin: 15px auto;
     }
     body{
-        background-image: url("img/Bg-imeg.jpg");
+        background-image: url("img/Background_Bord.jpg");
         background-size: cover;
+        background-position: -258px;
         background-attachment: fixed;
         background-repeat: no-repeat;
     }

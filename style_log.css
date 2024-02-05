@@ -2,7 +2,7 @@
 
     
 body{
-    background-image: url("img/Bg_for_PK.jpg");
+    background-image: url("img/Background_Bord.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -81,10 +81,28 @@ Input:hover{
     color: #ffffff98;
 }
 @media (max-width: 750px){
+
     body{
-        background-image: url("img/Bg-imeg.jpg");
+        background-image: url("img/Background_Bord.jpg");
         background-size: cover;
+        background-position: -258px;
         background-attachment: fixed;
         background-repeat: no-repeat;
+    }
+    form{
+        background-color: #0274b298;
+        padding-top: 55px;
+        position: absolute;
+        width: 331px;
+        height: 366px;
+    }
+    #h1_text{
+        padding: 2px;
+        font-size: 26px;
+        padding-bottom: 15px;
+    }
+    Input{
+        width: 145px;
+        margin-top: 15px;
     }
 }
