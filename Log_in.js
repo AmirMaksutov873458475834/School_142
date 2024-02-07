@@ -22,12 +22,4 @@ submit.addEventListener('click', () => {
     const userID = "User" + createID(users);
     users[userID] = user;
     console.log(users);
-
-    const fs = require('fs');
-    let data = JSON.stringify(users, null, 2);
-
-    fs.writeFile('student-3.json', data, (err) => { 
-        if (err) throw err; 
-        console.log('Data written to file'); 
-    });
 })
